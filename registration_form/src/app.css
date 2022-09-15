@@ -1,0 +1,91 @@
+.app {
+  display: flex;
+  align-items: flex-start ;
+  justify-content: center;
+}
+
+form{
+    background-color: white;
+    padding: 0px 60px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+h2{
+    padding:10px 0 ;
+    color: rgb(77, 1, 77);
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.table_container{
+  background-color: white;
+  min-height: 40px;
+  margin:3rem ;
+  border-radius: 5px;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th>span{
+  background-color: rgb(177, 255, 229);
+  border-radius: 8px;
+}
+
+th{
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+td{
+  padding :2px;
+  max-width: 300px;
+}
+
+td>span{
+  color: black;
+  background-color: #eee;
+  font-size: 16px;
+  display: block;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+
+th>span{
+  font-size: 16px;
+  display: block;
+  color: blue;
+  padding: 10px;
+}
+
+.table_body,table{
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.delete{
+  background-color: rgb(255, 163, 163);
+  cursor: pointer;
+}
+
+.delete:hover{
+ background-color: rgb(255, 93, 93);
+}
+

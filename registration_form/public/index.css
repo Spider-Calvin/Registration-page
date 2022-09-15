@@ -1,0 +1,4 @@
+body{
+background: rgba(71, 75, 255, 0.64);
+background: -webkit-linear-gradient(66deg, rgba(71, 75, 255, 0.64) 0%, rgba(188, 72, 255, 0.57) 100%);
+background: linear-gradient(66deg, rgba(71, 75, 255, 0.64) 0%, rgba(188, 72, 255, 0.57) 100%);}
